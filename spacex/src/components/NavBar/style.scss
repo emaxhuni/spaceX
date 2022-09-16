@@ -1,0 +1,53 @@
+.navigationSpacex {
+    margin: 0px;
+    font-weight:700;
+    display: flex;
+    align-items: center;
+   .spaceX_logo{
+    width: 30%;
+    img{
+        width: 100%;
+    }
+   }
+   .nav__link{
+        width: 70%;
+        padding-top: 25px;
+        margin-left: 100px;
+        ul{
+           display: flex;
+                 width: 100%;
+           li{
+            margin: 10px 20px ;
+            list-style-type: none;
+            width: 100%;
+            
+        }
+      
+    }
+}
+}
+@media (max-width: 768px) {
+    .navigationSpacex {
+        background-color: #f1f1f1;
+        .nav__link{
+           width: 100%;
+         display: flex; 
+         justify-content: flex-end; 
+
+            ul{
+                flex-direction: column;
+                 display: flex;
+                 width: 30%;
+               li{
+                justify-content: flex-end;
+                margin: 10px 20px ;
+                list-style-type: none;
+                width: 100%;
+                
+            }
+          
+        }
+    }
+    }
+  }
+   
